@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clappex AI - Convert More Dental Patients 24/7</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <style>
+        .gradient-text {
+            background: linear-gradient(90deg, #3b82f6 0%, #8b5cf6 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #1e3a8a 0%, #111827 100%);
+        }
+        .glow-button {
+            box-shadow: 0 0 15px rgba(59, 130, 246, 0.7);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+    <!-- Navigation -->
+    <nav class="gradient-bg py-4 px-6 sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i data-feather="message-circle" class="text-blue-400"></i>
+                <span class="text-xl font-bold">Clappex</span>
+            </div>
+            <div class="hidden md:flex space-x-8">
+                <a href="#solution" class="hover:text-blue-400 transition">Solution</a>
+                <a href="#offer" class="hover:text-blue-400 transition">Offer</a>
+                <a href="#faq" class="hover:text-blue-400 transition">FAQ</a>
+            </div>
+            <a href="#demo" class="bg-blue-600 hover:bg-blue-700 glow-button text-white px-6 py-2 rounded-full font-medium transition">Book Demo</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="gradient-bg py-20 px-6">
+        <div class="container mx-auto flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0" data-aos="fade-right">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+                    Your Dental Website Is <span class="gradient-text">Losing Patients</span> Every Day.
+                </h1>
+                <p class="text-xl text-gray-300 mb-8">
+                    Turn that lost traffic into 5–10 extra appointments every month — or keep our AI assistant free forever.
+                </p>
+                <a href="#demo" class="bg-blue-600 hover:bg-blue-700 glow-button text-white px-8 py-4 rounded-full font-bold text-lg transition inline-flex items-center">
+                    👉 Book a Free Demo
+                </a>
+            </div>
+            <div class="md:w-1/2" data-aos="fade-left">
+                <div class="relative">
+                    <img src="http://static.photos/medical/1024x576/1" alt="Dental clinic" class="rounded-xl shadow-2xl">
+                    <div class="absolute -bottom-5 -right-5 bg-gray-800 p-4 rounded-xl shadow-lg">
+                        <div class="flex items-center space-x-2">
+                            <div class="bg-blue-500 p-2 rounded-full">
+                                <i data-feather="message-square" class="w-5 h-5"></i>
+                            </div>
+                            <span class="font-medium">AI Assistant: Ready to help!</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Pain Section -->
+    <section class="py-20 px-6 bg-gray-800" id="pain" data-aos="fade-up">
+        <div class="container mx-auto max-w-4xl text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">
+                How Many Patients <span class="gradient-text">Slip Away</span> Every Month?
+            </h2>
+            <div class="grid md:grid-cols-3 gap-8 mt-12">
+                <div class="bg-gray-700 p-6 rounded-xl">
+                    <div class="text-blue-400 mb-4">
+                        <i data-feather="clock" class="w-10 h-10 mx-auto"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">40–60% of inquiries</h3>
+                    <p class="text-gray-300">come outside office hours — most never come back</p>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-xl">
+                    <div class="text-blue-400 mb-4">
+                        <i data-feather="phone-off" class="w-10 h-10 mx-auto"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Patients don't wait</h3>
+                    <p class="text-gray-300">If you don't answer, they Google another clinic</p>
+                </div>
+                <div class="bg-gray-700 p-6 rounded-xl">
+                    <div class="text-blue-400 mb-4">
+                        <i data-feather="dollar-sign" class="w-10 h-10 mx-auto"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">$300–$2,000 lost</h3>
+                    <p class="text-gray-300">per missed call (depending on treatment)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cost of Inaction -->
+    <section class="py-20 px-6 bg-gray-900" id="inaction" data-aos="fade-up">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6 text-center">
+                You're Already <span class="gradient-text">Paying for This Problem</span>
+            </h2>
+            <div class="mt-12 space-y-6">
+                <div class="flex items-start">
+                    <div class="bg-blue-600 p-2 rounded-full mr-4 mt-1">
+                        <i data-feather="alert-circle" class="w-5 h-5"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-2">You spend $$$ on ads and SEO</h3>
+                        <p class="text-gray-300">but most visitors leave without booking</p>
+                    </div>
+                </div>
+                <div class="flex items-start">
+                    <div class="bg-blue-600 p-2 rounded-full mr-4 mt-1">
+                        <i data-feather="users" class="w-5 h-5"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-2">Your staff can't answer calls 24/7</h3>
+                        <p class="text-gray-300">after-hours calls go unanswered</p>
+                    </div>
+                </div>
+                <div class="flex items-start">
+                    <div class="bg-blue-600 p-2 rounded-full mr-4 mt-1">
+                        <i data-feather="clock" class="w-5 h-5"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold mb-2">Delays mean lost patients</h3>
+                        <p class="text-gray-300">even interested patients move on if they face delays</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-12 bg-gray-800 p-6 rounded-xl border-l-4 border-blue-500">
+                <p class="text-xl font-bold">💸 Average dental clinic loses dozens of patients per month this way</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="py-20 px-6 bg-gray-800" id="solution" data-aos="fade-up">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6 text-center">
+                Never Lose Another Patient to <span class="gradient-text">Missed Calls</span>
+            </h2>
+            <div class="grid md:grid-cols-2 gap-8 mt-12">
+                <div class="bg-gray-900 p-6 rounded-xl border border-gray-700">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-600 p-2 rounded-full mr-4">
+                            <i data-feather="message-square" class="w-5 h-5"></i>
+                        </div>
+                        <h3 class="text-xl font-bold">AI Chatbot</h3>
+                    </div>
+                    <p class="text-gray-300">Trained on your services, pricing & FAQs to answer patient questions instantly</p>
+                </div>
+                <div class="bg-gray-900 p-6 rounded-xl border border-gray-700">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-600 p-2 rounded-full mr-4">
+                            <i data-feather="phone-call" class="w-5 h-5"></i>
+                        </div>
+                        <h3 class="text-xl font-bold">AI Phone Agent</h3>
+                    </div>
+                    <p class="text-gray-300">Calls back missed calls and converts them into booked patients</p>
+                </div>
+                <div class="bg-gray-900 p-6 rounded-xl border border-gray-700">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-600 p-2 rounded-full mr-4">
+                            <i data-feather="calendar" class="w-5 h-5"></i>
+                        </div>
+                        <h3 class="text-xl font-bold">Auto-Booking</h3>
+                    </div>
+                    <p class="text-gray-300">Books appointments directly into your calendar without staff involvement</p>
+                </div>
+                <div class="bg-gray-900 p-6 rounded-xl border border-gray-700">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-blue-600 p-2 rounded-full mr-4">
+                            <i data-feather="mail" class="w-5 h-5"></i>
+                        </div>
+                        <h3 class="text-xl font-bold">Follow-ups</h3>
+                    </div>
+                    <p class="text-gray-300">Email & SMS campaigns to retarget lost leads and keep your pipeline full</p>
+                </div>
+            </div>
+            <div class="text-center mt-12">
+                <a href="#demo" class="bg-blue-600 hover:bg-blue-700 glow-button text-white px-8 py-4 rounded-full font-bold text-lg transition inline-flex items-center">
+                     👉 See How It Works (Free Demo)
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Offer Section -->
+    <section class="py-20 px-6 gradient-bg" id="offer" data-aos="fade-up">
+        <div class="container mx-auto max-w-4xl text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">
+                Get <span class="gradient-text">5–10 Extra Appointments</span> in 30 Days — Or It's Free Forever
+            </h2>
+            <p class="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+                We're so confident, we'll make you this promise: If you meet the minimum traffic requirement and don't get at least 5 booked appointments in your first 30 days, we'll continue optimizing for free — until you do.
+            </p>
+            <div class="bg-gray-900 bg-opacity-50 p-8 rounded-xl border border-gray-700 mt-8">
+                <p class="text-2xl font-bold mb-4">No risk. No excuses. Just patients in chairs.</p>
+                <a href="#demo" class="bg-blue-600 hover:bg-blue-700 glow-button text-white px-8 py-4 rounded-full font-bold text-lg transition inline-flex items-center">
+                     👉 Claim Your Free AI Assistant Demo
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-20 px-6 bg-gray-900" data-aos="fade-up">
+        <div class="container mx-auto max-w-5xl">
+            <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">
+                Why Choose <span class="gradient-text">Clappex</span>
+            </h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center">
+                    <div class="bg-blue-600 bg-opacity-20 p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <i data-feather="trending-up" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">More Appointments</h3>
+                    <p class="text-gray-300">Without extra ads or staff</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-blue-600 bg-opacity-20 p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <i data-feather="shield" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Proven AI Tech</h3>
+                    <p class="text-gray-300">Already converting patients 24/7</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-blue-600 bg-opacity-20 p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <i data-feather="zap" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Fast Results</h3>
+                    <p class="text-gray-300">Live in under 7 days</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-blue-600 bg-opacity-20 p-4 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                        <i data-feather="thumbs-up" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Zero Effort</h3>
+                    <p class="text-gray-300">We set it all up for you</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 px-6 bg-gray-800" id="faq" data-aos="fade-up">
+        <div class="container mx-auto max-w-4xl">
+            <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">
+                Frequently Asked <span class="gradient-text">Questions</span>
+            </h2>
+            <div class="space-y-4">
+                <div class="bg-gray-900 p-6 rounded-xl">
+                    <button class="flex justify-between items-center w-full text-left faq-btn">
+                        <h3 class="text-xl font-bold">Do I need a new website?</h3>
+                        <i data-feather="chevron-down" class="w-6 h-6"></i>
+                    </button>
+                    <div class="mt-4 text-gray-300 faq-answer">
+                        No, we install directly on your current site. No redesign needed.
+                    </div>
+                </div>
+                <div class="bg-gray-900 p-6 rounded-xl">
+                    <button class="flex justify-between items-center w-full text-left faq-btn">
+                        <h3 class="text-xl font-bold">What if my staff already answers calls?</h3>
+                        <i data-feather="chevron-down" class="w-6 h-6"></i>
+                    </button>
+                    <div class="mt-4 text-gray-300 faq-answer">
+                        Our AI catches the after-hours & overflow calls your staff can't handle.
+                    </div>
+                </div>
+                <div class="bg-gray-900 p-6 rounded-xl">
+                    <button class="flex justify-between items-center w-full text-left faq-btn">
+                        <h3 class="text-xl font-bold">What if it doesn't work for me?</h3>
+                        <i data-feather="chevron-down" class="w-6 h-6"></i>
+                    </button>
+                    <div class="mt-4 text-gray-300 faq-answer">
+                        Then you don't pay. Simple. Our guarantee ensures you only pay for results.
+                    </div>
+                </div>
+                <div class="bg-gray-900 p-6 rounded-xl">
+                    <button class="flex justify-between items-center w-full text-left faq-btn">
+                        <h3 class="text-xl font-bold">Do I need to manage campaigns?</h3>
+                        <i data-feather="chevron-down" class="w-6 h-6"></i>
+                    </button>
+                    <div class="mt-4 text-gray-300 faq-answer">
+                        No, we automate all email & SMS follow-ups for you.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-16 px-6 bg-gray-900 sticky bottom-0 z-40 shadow-lg" id="demo">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <div class="mb-4 md:mb-0">
+                <h3 class="text-xl md:text-2xl font-bold">Stop losing patients to missed calls</h3>
+                <p class="text-gray-300">Let Clappex AI work for you 24/7</p>
+            </div>
+            <a href="#" class="bg-blue-600 hover:bg-blue-700 glow-button text-white px-8 py-3 rounded-full font-bold transition inline-flex items-center">
+                👉 Book Your Free Demo Today
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="gradient-bg py-12 px-6">
+        <div class="container mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center space-x-2 mb-6 md:mb-0">
+                    <i data-feather="message-circle" class="text-blue-400"></i>
+                    <span class="text-xl font-bold">Clappex</span>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="#" class="hover:text-blue-400 transition"><i data-feather="facebook"></i></a>
+                    <a href="#" class="hover:text-blue-400 transition"><i data-feather="twitter"></i></a>
+                    <a href="#" class="hover:text-blue-400 transition"><i data-feather="linkedin"></i></a>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>© 2023 Clappex AI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+        feather.replace();
+
+        // FAQ toggle
+        document.querySelectorAll('.faq-btn').forEach(button => {
+            const answer = button.nextElementSibling;
+            answer.style.display = 'none';
+            button.addEventListener('click', () => {
+                if (answer.style.display === 'none') {
+                    answer.style.display = 'block';
+                    button.querySelector('i').setAttribute('data-feather', 'chevron-up');
+                } else {
+                    answer.style.display = 'none';
+                    button.querySelector('i').setAttribute('data-feather', 'chevron-down');
+                }
+                feather.replace();
+            });
+        });
+    </script>
+
+</body>
+</html>
